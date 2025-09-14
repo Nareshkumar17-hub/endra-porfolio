@@ -1,0 +1,95 @@
+body {
+     background-color: #f9f9f9; 
+      font-family: 'poppins' , sans-serif;
+}
+#nav {
+    position: sticky;
+    top: 1px;
+    z-index: 1;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;   
+  gap: 2rem;        
+  padding: 2rem;
+}
+
+#box {
+  flex: 1 1 300px;  
+  text-align: center;
+}
+
+#box h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 1rem;
+}
+
+#box span {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  color: #666;
+}
+
+#box2 {
+  flex: 1 1 300px;  
+  display: flex;
+  justify-content: center;
+}
+
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2em;
+}
+#about #child2 {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex: 1 1 300px;     
+  max-width: 600px;    
+  text-align: center;  
+  margin: auto;
+  font-size: clamp(1rem, 2vw, 1.2rem); 
+  line-height: 1.6; 
+  flex-direction: column;   
+
+} 
+/* skills section starts here*/ 
+
+#skills {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skillbox {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+} 
+#html i {
+    font-size: 36px;
+    color: orangered;
+}
+#css i {
+    font-size: 36px;
+    color: blue;
+
+}
+#js i {
+    font-size: 36px;
+    color: yellow;
+}
